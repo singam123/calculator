@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-image: url('background.jpg');
+}
+</style>
+
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			crossorigin="anonymous">
+  	</script>
+</head>
+<body>
+	<div class="container">
+
+		<textarea id="resultArea" readonly rows="1" cols="21" maxlength="9"></textarea>
+
+    </div>
+
+		<table>
+			<tr>
+				<td></td>
+				<td><button id="clrTxt">C</button></td>
+				<td><button id="del" >CE</button></td>
+				<td><button id="op4">%</button></td>
+			</tr>
+
+			<tr>
+				<td><button id="num7">7</button></td>
+				<td><button id="num8">8</button></td>
+				<td><button id="num9" >9</button></td>
+				<td><button id="op3">&div;</button></td>
+			</tr>
+
+			<tr>
+				<td><button id="num4">4</button></td>
+				<td><button id="num5">5</button></td>
+				<td><button id="num6">6</button></td>
+				<td><button id="op2">&times;</button></td>
+			</tr>
+
+			<tr>
+				<td><button id="num1">1</button></td>
+				<td><button id="num2">2</button></td>
+				<td><button id="num3">3</button></td>
+				<td><button id="op1">&minus;</button></td>
+			</tr>
+
+			<tr>
+				<td><button id="decp"></button></td>
+				<td><button id="num0">0</button></td>
+				<td><button id="eq">=</button></td>
+				<td><button id="op0">&plus;</button></td>
+			</tr>
+		</table>
+	</div>
+<script type="text/javascript" src="clc.js"></script> 
+</body>
+</html>
